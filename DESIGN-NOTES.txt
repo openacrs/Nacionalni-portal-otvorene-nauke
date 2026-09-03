@@ -1,0 +1,18 @@
+OPEN.AC.RS WAYBACK-STYLE RECONSTRUCTION
+
+Maintenance
+-----------
+assets/js/menu.js  - centralised header, desktop/mobile navigation and footer
+assets/css/site.css - site-wide visual design
+
+Design basis
+------------
+Reconstructed from the supplied Wayback screenshots: Serbia logo header, uppercase navigation, orange accents, wide Open Sans content layout, light-grey project footer, and right-side mobile drawer. The mobile drawer uses a darker grey than the archived version for stronger contrast, as requested.
+
+Images and linked files
+-----------------------
+The supplied images archive has been restored under images/ with its original folder structure. Existing local image/document references were checked and unique filename/path mismatches were repaired where possible. News/category cards were enhanced with thumbnails derived from their linked article pages when an available local image could be identified.
+
+GitHub Pages
+------------
+Upload the CONTENTS of this folder to the repository root. Keep .nojekyll. GitHub Pages should publish main / (root).

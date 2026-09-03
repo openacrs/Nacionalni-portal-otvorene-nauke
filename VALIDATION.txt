@@ -1,0 +1,9 @@
+OPEN.AC.RS STATIC RECONSTRUCTION VALIDATION
+
+HTML pages: 88
+Files restored under images/: 217
+Image files under images/: 95
+Local image references checked: 147
+Broken local image references: 0
+Local links checked: 228
+Broken local links: 0
