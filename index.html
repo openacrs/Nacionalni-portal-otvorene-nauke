@@ -1,6 +1,43 @@
 <!DOCTYPE html>
 
-<html lang="sr-Latn"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Nacionalni portal otvorene nauke | open.ac.rs</title><meta content="Šta je otvorena nauka? Otvorena nauka je pokret koji ima za cilj promovisanje i ostvarivanje slobodnog pristupa naučnom znanju, podacima i rezultatima naučnih…" name="description"/><link href="assets/css/site.css" rel="stylesheet"/><link href="images/favicon-16x16.png" rel="icon"/></head><body><header id="site-header"></header><main class="content"><div class="article-content"><nav>
+<html lang="sr-Latn"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Nacionalni portal otvorene nauke | open.ac.rs</title><meta content="Šta je otvorena nauka? Otvorena nauka je pokret koji ima za cilj promovisanje i ostvarivanje slobodnog pristupa naučnom znanju, podacima i rezultatima naučnih…" name="description"/><link href="assets/css/site.css" rel="stylesheet"/><link href="images/favicon-16x16.png" rel="icon"/><style id="home-tile-fix">
+.home-os-tiles{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  align-items:stretch;
+  flex-wrap:wrap;
+  margin:62px auto 0;
+  max-width:1120px
+}
+.home-os-tiles a{
+  box-sizing:border-box;
+  width:220px;
+  height:236px;
+  background:#1b1548;
+  color:#fff!important;
+  text-decoration:none!important;
+  display:block;
+  overflow:hidden;
+  transition:background-color .18s ease
+}
+.home-os-tiles a:hover,
+.home-os-tiles a:focus{
+  background:#f47a20;
+  color:#fff!important;
+  text-decoration:none!important
+}
+.home-os-tiles img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:contain
+}
+@media (max-width:760px){
+  .home-os-tiles{gap:16px;margin-top:35px}
+  .home-os-tiles a{width:220px;height:236px}
+}
+</style></head><body><header id="site-header"></header><main class="content"><div class="article-content"><nav>
 <div>
 <div><a href="."></a></div>
 </div>
@@ -14,7 +51,12 @@
 </div>
 </div>
 <div align="center">
-<div class="buttonOlive" style="text-align: center; align-content: stretch;"><a href="pristupnica/otvoreni-pristup/">Otvoreni pristup <br/><br/><span class="home-tile-icon">◉</span></a> <a href="pristupnica/podaci/">Otvoreni podaci <br/><br/><span class="home-tile-icon">◉</span></a><a href="pristupnica/metodologija/">Otvorena metodologija<br/><br/><span class="home-tile-icon">⚙</span></a><a href="pristupnica/otvorena-evaluacija/">Otvorena evaluacija<br/><br/><span class="home-tile-icon">⚖</span></a><!--<a href="index.php?option=com_content&amp;view=article&amp;id=20&amp;Itemid=130&amp;lang=sr">Čuvanje <br /><br /> <img src="images/cubicMenu/backup.png" alt="" style="margin: auto;" /></a> <a href="index.php/sharing-publishing/data-share">Objavljivanje <br /><br /> <img src="images/cubicMenu/publish.png" alt="" style="margin: auto;" /></a>--></div>
+<div class="home-os-tiles">
+<a href="pristupnica/otvoreni-pristup/" aria-label="Otvoreni pristup"><img src="images/open-access.png" alt="Otvoreni pristup"></a>
+<a href="pristupnica/podaci/" aria-label="Otvoreni podaci"><img src="images/open-data.png" alt="Otvoreni podaci"></a>
+<a href="pristupnica/metodologija/" aria-label="Otvorena metodologija"><img src="images/open-methodology.png" alt="Otvorena metodologija"></a>
+<a href="pristupnica/otvorena-evaluacija/" aria-label="Otvorena evaluacija"><img src="images/open-evaluation.png" alt="Otvorena evaluacija"></a>
+</div>
 </div>
 <div style="clear:both;"> </div>
 <div id="content">
