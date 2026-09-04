@@ -75,7 +75,7 @@
 
     results.innerHTML = matches.length ? matches.map(({item}) => `
       <article class="search-result">
-        <h2><a href="${u(item.url.replace(/^\//,''))}">${esc(item.title)}</a></h2>
+        <h2><a href="${u(String(item.route ?? item.url ?? '').replace(/^\//,''))}">${esc(item.title)}</a></h2>
         <p>${esc(makeSnippet(item.text, terms))}</p>
       </article>`).join('') : '<p>Nema rezultata za uneti pojam.</p>';
   };
