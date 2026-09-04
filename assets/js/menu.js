@@ -37,11 +37,11 @@
             <li class="has-sub"><a href="${u('izdavastvo/')}">IZDAVAŠTVO <span class="chev">⌄</span></a>
               <ul>
                 <li><a href="${u('izdavastvo/podrska/')}">Podrška</a></li>
-                <li><a href="${u('izdavastvo/podrska/kvalitet-u-naucnom-izdavastvu/')}">Kvalitet u naučnom izdavaštvu</a></li>
                 <li><a href="${u('izdavastvo/centar/')}">Centar</a></li>
                 <li><a href="${u('izdavastvo/politike-casopisa/')}">Politike časopisa</a></li>
                 <li><a href="${u('izdavastvo/standard-za-dijamantski-otvoreni-pristup/')}">Standard za dijamantski otvoreni pristup</a></li>
                 <li><a href="${u('izdavastvo/standard-za-dijamantski-otvoreni-pristup-vodic-za-casopise/')}">Vodič za časopise</a></li>
+                <li><a href="${u('izdavastvo/podrska/kvalitet-u-naucnom-izdavastvu/')}">Kvalitet u naučnom izdavaštvu</a></li>
               </ul>
             </li>
             <li class="has-sub"><a href="${u('novosti/vesti/')}">NOVOSTI <span class="chev">⌄</span></a>
@@ -74,10 +74,10 @@
           <li class="drawer-has-sub"><button type="button" class="drawer-sub-toggle"><span><span class="arrow">›</span> IZDAVAŠTVO</span><span class="down">⌄</span></button>
             <ul>
               <li><a href="${u('izdavastvo/podrska/')}">Podrška</a></li>
-              <li><a href="${u('izdavastvo/podrska/kvalitet-u-naucnom-izdavastvu/')}">Kvalitet u naučnom izdavaštvu</a></li>
               <li><a href="${u('izdavastvo/centar/')}">Centar</a></li>
               <li><a href="${u('izdavastvo/politike-casopisa/')}">Politike časopisa</a></li>
               <li><a href="${u('izdavastvo/standard-za-dijamantski-otvoreni-pristup/')}">Standard za dijamantski otvoreni pristup</a></li>
+              <li><a href="${u('izdavastvo/podrska/kvalitet-u-naucnom-izdavastvu/')}">Kvalitet u naučnom izdavaštvu</a></li>
             </ul>
           </li>
           <li class="drawer-has-sub"><button type="button" class="drawer-sub-toggle"><span><span class="arrow">›</span> NOVOSTI</span><span class="down">⌄</span></button>
